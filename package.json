@@ -1,14 +1,12 @@
 {
   "name": "jqvmap",
   "version": "1.5.1",
-  "homepage": "http://jqvmap.com",
   "author": {
     "name": "JQVMap",
-    "email": "me@peterschmalfeldt.com",
-    "url": "http://jqvmap.com"
+    "email": "jonathananewell@hotmail.com"
   },
   "license": "(MIT OR GPL-3.0)",
-  "description": "jQuery Vector Map Library",
+  "description": "jQuery Vector Map Library upgrade to jquery 3.3.1 to pass npm audit",
   "main": "dist/jquery.vmap.min.js",
   "keywords": [
     "jquery",
@@ -19,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/manifestinteractive/jqvmap.git"
+    "url": "https://github.com/BadLambdaJamma/jqvmap.git"
   },
   "dependencies": {
-    "jquery": "~1.11.3"
+    "jquery": "3.3.1"
   },
   "scripts": {
     "test": "grunt test"
